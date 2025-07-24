@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MineChest - Competição Minecraft</title>
+    <title>MineStars - Competição Minecraft</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h1>MineChest</h1>
+                <img src="fts/Minestars.png" alt="MineStars Logo" class="logo-icon">
+                <h1>MineStars</h1>
             </div>
             <nav class="nav">
                 <a href="#inicio" class="nav-link">Início</a>
@@ -25,7 +26,8 @@
         <div class="container">
             <!-- Seção Início -->
             <section id="inicio" class="hero-section">
-                <h1 class="hero-title">MineChest</h1>
+                <img src="fts/Minestars.png" alt="MineStars Logo" class="hero-logo">
+                <h1 class="hero-title">MineStars</h1>
                 <p class="hero-subtitle">A maior competição de Minecraft está chegando!</p>
                 <div class="hero-stats">
                     <div class="stat-item">
@@ -86,33 +88,68 @@
                     <!-- Fase 2 -->
                     <div class="rule-phase">
                         <div class="phase-header">
-                            <div class="phase-icon">⚔️</div>
-                            <h3 class="phase-title">Fase 2: PvP pela Vitória</h3>
+                            <div class="phase-icon">🎪</div>
+                            <h3 class="phase-title">Fase 2: Semifinais</h3>
                         </div>
                         <div class="phase-content">
                             <div class="phase-description">
-                                <p>Os <strong>6 classificados</strong> disputarão entre si em <strong>3 rounds eliminatórios</strong>:</p>
+                                <p>Os <strong>6 classificados</strong> participam das semifinais com <strong>2 desafios eliminatórios</strong>:</p>
                                 
                                 <div class="round-info">
-                                    <h4>🎲 Round 1 - 1v1</h4>
-                                    <p>Os 6 participantes do <strong>top 6</strong> (melhores pontuações da fase anterior) será sorteado para <strong>escolher seu adversário</strong> entre os demais classificados.</p>
+                                    <h4>🎯 Desafio 1 - Prova Individual</h4>
+                                    <p>Todos os 6 participantes competem em uma prova individual. O <strong>último colocado é eliminado</strong>.</p>
                                 </div>
 
                                 <div class="round-info">
-                                    <h4>🏆 Round 2 - Sorteio Para Uma Batalha Final</h4>
-                                                                     <p>Um dos 3 participantes (vencedores da fase anterior) será sorteado para <strong>escolher um adversário do top 3</strong> e o outro avançará para a final</p>
+                                    <h4>🏃 Desafio 2 - Prova de Resistência</h4>
+                                    <p>Os 5 restantes competem em outra prova. O <strong>último colocado é eliminado</strong>.</p>
+                                </div>
+
+                                <div class="advancement-info">
+                                    <span class="advancement-badge">Top 4 avança para o PvP final!</span>
+                                </div>
+                            </div>
+                            <div class="phase-visual">
+                                <div class="semifinal-flow">
+                                    <div class="semifinal-step">6 Classificados</div>
+                                    <div class="arrow-down">⬇️</div>
+                                    <div class="semifinal-step">Desafio 1 (-1)</div>
+                                    <div class="arrow-down">⬇️</div>
+                                    <div class="semifinal-step">5 Restantes</div>
+                                    <div class="arrow-down">⬇️</div>
+                                    <div class="semifinal-step">Desafio 2 (-1)</div>
+                                    <div class="arrow-down">⬇️</div>
+                                    <div class="semifinal-step top4">Top 4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fase 3 -->
+                    <div class="rule-phase">
+                        <div class="phase-header">
+                            <div class="phase-icon">⚔️</div>
+                            <h3 class="phase-title">Fase 3: PvP pela Vitória</h3>
+                        </div>
+                        <div class="phase-content">
+                            <div class="phase-description">
+                                <p>Os <strong>4 finalistas</strong> disputarão entre si em <strong>2 rounds eliminatórios</strong>:</p>
+                                
+                                <div class="round-info">
+                                    <h4>🎲 Round 1 - Semifinal</h4>
+                                    <p>Os 4 participantes são divididos em <strong>2 duplas</strong> por sorteio. Os vencedores de cada duelo avançam para a final.</p>
                                 </div>
 
                                 <div class="round-info">
-                                    <h4>👑 Round 3 - Grande Final</h4>
-                                    <p>Os <strong>2 finalistas restantes</strong> disputam o título de <strong>Campeão MineChest</strong>!</p>
+                                    <h4>👑 Round 2 - Grande Final</h4>
+                                    <p>Os <strong>2 vencedores</strong> disputam o título de <strong>Campeão MineStars</strong>!</p>
                                 </div>
                             </div>
                             <div class="phase-visual">
                                 <div class="pvp-flow">
-                                    <div class="pvp-step">6 Jogadores</div>
+                                    <div class="pvp-step">4 Finalistas</div>
                                     <div class="arrow-down">⬇️</div>
-                                    <div class="pvp-step">Sorteio + Escolha</div>
+                                    <div class="pvp-step">2 Duplas</div>
                                     <div class="arrow-down">⬇️</div>
                                     <div class="pvp-step">2 Finalistas</div>
                                     <div class="arrow-down">⬇️</div>
@@ -248,11 +285,11 @@
 
                 <!-- Segunda Fase -->
                 <div class="phase">
-                    <h3 class="phase-title">Segunda Fase - PvP Eliminatório</h3>
+                    <h3 class="phase-title">Segunda Fase - Semifinais</h3>
                     <div class="groups-container">
-                        <!-- Classificados para PvP -->
-                        <div class="group pvp-group">
-                            <h4 class="group-title">Classificados para o PvP</h4>
+                        <!-- Semifinalistas -->
+                        <div class="group semifinal-group">
+                            <h4 class="group-title">Semifinalistas</h4>
                             <div class="players-grid semifinal">
                                 <div class="player-block qualified">
                                     <div class="minecraft-block gold"></div>
@@ -279,6 +316,48 @@
                                     <span class="player-name">Classificado 6</span>
                                 </div>
                             </div>
+                            <div class="semifinal-challenges">
+                                <div class="challenge-round">
+                                    <span class="challenge-name">Desafio 1</span>
+                                    <span class="elimination">-1 eliminado</span>
+                                </div>
+                                <div class="challenge-round">
+                                    <span class="challenge-name">Desafio 2</span>
+                                    <span class="elimination">-1 eliminado</span>
+                                </div>
+                            </div>
+                            <div class="advancement">
+                                <span class="advancement-text">Top 4 avança para o PvP ⬇️</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terceira Fase -->
+                <div class="phase">
+                    <h3 class="phase-title">Terceira Fase - PvP Eliminatório</h3>
+                    <div class="groups-container">
+                        <!-- Top 4 para PvP -->
+                        <div class="group pvp-group">
+                            <h4 class="group-title">Top 4 - PvP Final</h4>
+                            <div class="players-grid final-four">
+                                <div class="player-block finalist">
+                                    <div class="minecraft-block diamond"></div>
+                                    <span class="player-name">Finalista 1</span>
+                                </div>
+                                <div class="player-block finalist">
+                                    <div class="minecraft-block diamond"></div>
+                                    <span class="player-name">Finalista 2</span>
+                                </div>
+                                <div class="player-block finalist">
+                                    <div class="minecraft-block diamond"></div>
+                                    <span class="player-name">Finalista 3</span>
+                                </div>
+                                <div class="player-block finalist">
+                                    <div class="minecraft-block diamond"></div>
+                                    <span class="player-name">Finalista 4</span>
+                                </div>
+                            </div>
                             <div class="advancement">
                                 <span class="advancement-text">2 Avançam para a Final ⬇️</span>
                             </div>
@@ -302,7 +381,7 @@
                             </div>
                         <div class="trophy">
                             <div class="trophy-icon">🏆</div>
-                            <span class="trophy-text">Campeão MineChest</span>
+                            <span class="trophy-text">Campeão MineStars</span>
                         </div>
                     </div>
                 </div>
